@@ -1,18 +1,28 @@
 package br.com.estagioyaman.stepsDefinitions;
 
+import br.com.estagioyaman.settings.PropertiesManager;
 import br.com.estagioyaman.web.actions.LoginActions;
-import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.E;
+import io.cucumber.java.pt.Quando;
 
 public class LoginSteps {
-    private final LoginActions loginActions;
+
+    private LoginActions loginActions;
 
     public LoginSteps() {
         this.loginActions = new LoginActions();
     }
 
-    @Dado("que relizou login com credenciais válidas")
-    public void queRelizouLoginComCredenciaisValidas() {
-        this.loginActions.preencherUsuarioESenha();
-        this.loginActions.clicaBotaoEntrar();
+    @E("preencho os campos de login com dados válidos para acesso")
+    public void preenchoOsCamposDeLoginComDadosValidosParaAcesso (){
+        this.loginActions.preencheCampoEmail(PropertiesManager.getPropertiesValue("user","credencials"));
+        this.loginActions.preencheCampoSenha(PropertiesManager.getPropertiesValue("password","credencials"));
+    }
+
+    @Quando("clico no botão {string}")
+    public void clicoNoBotão(String arg0) {
+        this.loginActions.clicarNoBotaoEntra();
     }
 }
+
+

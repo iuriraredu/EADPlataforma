@@ -5,6 +5,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
+import static io.cucumber.junit.CucumberOptions.SnippetType.*;
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/",
@@ -18,7 +20,7 @@ import org.junit.runner.RunWith;
                 "json:test-output/cucumber.json"
         },
         monochrome = true,
-        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        snippets = CAMELCASE,
         tags = "@web"
 )
 public class RunTest extends BaseTest {

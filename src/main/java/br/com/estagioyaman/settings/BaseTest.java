@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -37,6 +38,11 @@ public abstract class BaseTest {
             webDriver = new EdgeDriver();
         }
 
+        if(browser.contains("Opera")){
+            WebDriverManager.operadriver().setup();
+            webDriver = new OperaDriver();
+        }
+
         webDriver.manage().window().maximize();
         webDriver.get(PropertiesManager.getPropertiesValue("URLQA", "application"));
         wait = new WebDriverWait(webDriver,15);
@@ -49,9 +55,9 @@ public abstract class BaseTest {
     }
 
     protected static void browserScreenShot(String nomeCenario){
-        String dataEHora = new SimpleDateFormat("yyyy-MM-dd/hhmmss").format(new Timestamp(System.currentTimeMillis()));
+        String dataEHora = new SimpleDateFormat("yyyy-MM-dd/hh.mm.ss_").format(new Timestamp(System.currentTimeMillis()));
         String nomeDoArquivo = dataEHora + nomeCenario;
-        try{
+        try {
             File screenshot = ((TakesScreenshot)webDriver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(screenshot, new File("test-output/Screenshot/" + nomeDoArquivo + ".png"));
         } catch (Exception e){

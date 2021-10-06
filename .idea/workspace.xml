@@ -4,25 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cdd0bc-01f2-45fa-8bb4-b80d9f03d45c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/settings/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/settings/PropertiesManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/HomeActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/LoginActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/ProfileActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/credencials.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/runTest/RunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/HomeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/ProfileSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testeLoginLastFM.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="40cdd0bc-01f2-45fa-8bb4-b80d9f03d45c" name="Changes" comment="Primeiro commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/HomeLogadaActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/HomeLogadaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/HomeLogadaSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/LoginEADPlataforma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/settings/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/settings/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/HomeActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/HomeActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/LoginActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/LoginActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/actions/ProfileActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estagioyaman/web/pages/ProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/credencials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/credencials.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/runTest/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/runTest/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/HomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/HomeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estagioyaman/stepsDefinitions/ProfileSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testeLoginLastFM.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/credencials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/credencials.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testeLoginLastFM.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,25 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunTest">
+    <configuration name="Feature: LoginEADPlataforma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/LoginEADPlataforma.feature" />
+      <option name="GLUE" value="br.com.estagioyaman.hooks br.com.estagioyaman.stepsDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EADPlataforma" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: LoginEADPlataforma" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Logar no LastFM com dados válidos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/testeLoginLastFM.feature" />
@@ -68,6 +92,26 @@
       <option name="NAME_FILTER" value="^Logar no LastFM com dados válidos$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logar no LastFM com dados válidos$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Logar no LastFM com dados válidos" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login com sucesso" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/LoginEADPlataforma.feature" />
+      <option name="GLUE" value="br.com.estagioyaman.hooks br.com.estagioyaman.stepsDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EADPlataforma" />
+      <option name="NAME_FILTER" value="^Login com sucesso$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login com sucesso$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login com sucesso" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,6 +141,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunTest" />
+        <item itemvalue="Cucumber Java.Feature: LoginEADPlataforma" />
+        <item itemvalue="Cucumber Java.Scenario: Login com sucesso" />
         <item itemvalue="Cucumber Java.Scenario: Logar no LastFM com dados válidos" />
       </list>
     </recent_temporary>
@@ -110,6 +156,21 @@
       <option name="presentableId" value="Default" />
       <updated>1633367709722</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primeiro commit">
+      <created>1633371835356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633371835356</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Primeiro commit">
+      <created>1633371847158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633371847158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,5 +183,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit" />
   </component>
 </project>
